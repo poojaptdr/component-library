@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar{
+    width:30%;
+    background: #ddd;
+    height: 100vh;
+    float: left;
+}
+
+@media(max-width:768px){
+.sidebar{
+    width: 40%;
+    float: left;
+}
+}
+
+.navbar{
+    
+    display: flex;
+    margin: 0;
+    background: purple;
+    padding: .7rem;
+    border-bottom-right-radius: .5rem;
+}
+
+input{
+    border-radius: 1rem;
+    width: 130px;
+    height: 25px;
+    border: none;
+    outline: none;
+}
+
+h1{
+    color: #fff;
+}
+
+span{
+    margin: 1rem;
+    font-size: 17px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color: purple;
+    font-weight: 600;
+}
+
+.main{
+    float:left;
+    width: 60%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+@media(max-width){
+.main{
+    float: left;
+    width: 100%;
+}
+}
+
+.fheading{
+    text-align: center;
+    color: purple;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    border-bottom: 2px solid purple;
+    border-top: 2px solid purple;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+p{
+    margin: 2rem;
+    text-align: center;
+}
+
+.img{
+    width: 80%;
+}
+img{
+    width:100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+} 
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+}
+ 
+.box{
+    width: 180px;
+    min-height: 200px;
+    background: #fff; 
+    margin: 1rem;  
+    box-shadow: 0 3px 5px ;
+}
+
+@media(max-width:768px){
+    .box{
+        width: 200px;
+        height: auto;
+        margin: .5rem;
+    }
+}
+
+.btn1{
+    background: purple;
+    color: #fff;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    font-size: 18px;
+}
+.btn2{
+    background: purple;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    font-size: 18px;
+}
+.btn3{
+    background: purple;
+    color: #fff;
+    padding: .5rem 1.8rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    font-size: 18px;
+}
+
+.btn4{
+    color: purple;
+    padding: .5rem .5rem;
+    border:2px solid purple;
+    border-radius: 2rem;
+    font-size: 20px;
+    margin: 1rem;
+    font-weight: bold;
+    background: #fff;
+}
+.btn5{
+    color: purple;
+    padding: .5rem 1rem;
+    border:2px solid purple;
+    border-radius: 2rem;
+    font-size: 20px;
+    margin: 1rem;
+    font-weight: bold;
+    background: #fff;
+}
+.btn6{
+    color: purple;
+    padding: .5rem 1.5rem;
+    border:2px solid purple;
+    border-radius: 2rem;
+    font-size: 20px;
+    margin: 1rem;
+    font-weight: bold;
+    background: #fff;
+}
+
+.btn10{
+    background: purple;
+    color: #fff;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    font-size: 20px;
+}
+.btn11{
+    background: purple;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    font-size: 20px;
+}.btn12{
+    background: purple;
+    color: #fff;
+    padding: .5rem 1.8rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    font-size: 20px;
+}
+
+.btn10:hover{
+    background: green;
+    box-shadow: 0 3px 5px  #000;
+}
+.btn11:hover{
+    background: green;
+    box-shadow: 0 3px 5px  #000;
+}
+.btn12:hover{
+    background: green;
+    box-shadow: 0 3px 5px  #000;
+}
+
+.btn13{
+    color: purple;
+    padding: .5rem 1rem;
+    border:2px solid purple;
+    border-radius: 2rem;
+    font-size: 20px;
+    margin: 1rem;
+    font-weight: bold;
+    background: #fff;
+}
+.btn14{
+    color: purple;
+    padding: .5rem 1.5rem;
+    border:2px solid purple;
+    border-radius: 2rem;
+    font-size: 20px;
+    margin:1rem;
+    font-weight: bold;
+    background: #fff;
+}
+.btn15{
+    color: purple;
+    padding: .5rem 2rem;
+    border:2px solid purple;
+    border-radius: 2rem;
+    font-size: 20px;
+    margin: 1rem;
+    font-weight: bold;
+    background: #fff;
+}
+
+.btn13:hover{
+    color: red;
+    border:2px solid red;
+}
+.btn14:hover{
+    color: red;
+    border:2px solid red;
+}
+.btn15:hover{
+    color: red;
+    border:2px solid red;
+}
+
+.btn16{
+    background: #fff;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    margin: 1.4rem;
+    font-size: 15px;
+    box-shadow: 0 3px 5px ;
+    font-weight: bold;
+}
+.btn17{
+    background: #fff;
+    color: #000;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    margin: 1.4rem;
+    font-size: 15px;
+    box-shadow: 0 3px 5px ;
+    font-weight: bold;
+}
+.btn18{
+    background: #fff;
+    color: #000;
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    margin: 1.4rem;
+    font-size: 15px;
+    box-shadow: 0 3px 5px ;
+    font-weight: bold;
+}
+
+.btn19{
+    padding: .3rem 1.2rem;
+    font-size: 20px;
+    margin:1rem;
+    background: #fff;
+}
+.btn20{
+    padding: .5rem 2rem;
+    font-size: 20px;
+    margin:1rem;
+    font-weight: bold;
+    background: #fff;
+}
+.btn21{
+    padding: .5rem 2.5rem;
+    font-size: 20px;
+    margin:1rem;
+    background: #fff;
+}
+
+.btn16:hover{
+transform: scale(1.05, 1.05);
+}
+.btn17:hover{
+    transform: scale(1.05, 1.05);
+ }
+ .btn18:hover{
+    transform: scale(1.05, 1.05);
+    }
+
+.fix{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.small{
+    width: 90px;
+    height: 90px;
+    margin: 2rem;
+}
+
+.medium{
+    width: 120px;
+    height: 120px;
+    margin: 2rem;
+}
+
+.larger{
+    width: 135px;
+    height: 135px;
+    margin: 2rem;
+}
+
+.scircle{
+    width: 90px;
+    height: 90px;
+    margin: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 3px 5px;
+}
+
+.mcircle{
+    width: 120px;
+    height: 120px;
+    margin: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 3px 5px;
+}
+
+.lcircle{
+    width: 135px;
+    height: 135px;
+    margin: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 3px 5px;
+}
+
+.btnn{
+    font-size: 15px;
+    margin: .5rem;
+}
+
+h4{
+    text-align: left;
+    margin: .5rem;
+}
+
+.par{
+   margin: .5rem;
+}
+
+@media(max-width:768px) {
+.par{
+    margin: .1rem;
+    font-size: 13px;
+}
+}
+
+.image{
+    height: 300px;
+}
+@media(max-width:768px) {
+    .image{
+        height: 150px;
+    }
+}
+
+.headings{
+    background: #ddd;
+    margin: 2rem;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 7rem;
+    line-height: 2rem;
+}
+
+.h1{
+    color: black;
+}
+
+.h4{
+    text-align: center;
+}
+
+.mains{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fheadings{
+    text-align: center;
+    color: purple;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    border-bottom: 2px solid purple;
+    border-top: 2px solid purple;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+.containers{
+    background: #ddd;
+    margin: 1rem;
+}
+
+.box1{
+width: 300px;
+border: 2px solid black;
+background: #ddd;
+margin: 2rem;
+}
+
+@media (max-width: 768) {
+    .box1{
+       width: 150px;
+    }
+}
+
+i{
+    margin: 1rem;
+    display: inline;
+    display: inline;
+}
+
+.boxs{
+    border: none;
+}
+
+.list{
+    list-style: none;
+}
+
+.navbars{
+    display: flex;
+    margin: 1rem;
+    background: purple;
+    padding: .7rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.nav{
+    display: flex;
+    margin: 1rem;
+    background: green;
+    padding: .7rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.navs{
+    display: flex;
+    margin: 1rem;
+    background: blue;
+    padding: .7rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.navbarss{
+    display: flex;
+    margin: 1rem;
+    background: red;
+    padding: .7rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.ri-linkedin-fill, .ri-twitter-fill{
+    font-size: 25px;
+    margin: .1rem;
+}
+
+.sccess{
+    border: 1px solid green;
+    padding: 1rem;
+    color: green;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.error{
+    border: 1px solid red;
+    padding: 1rem;
+    color: red;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.connection{
+    border: 1px solid blue;
+    padding: 1rem;
+    color: blue;
+    margin: 1.5rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.read{
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
