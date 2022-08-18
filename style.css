@@ -62,9 +62,9 @@ a{
    flex-direction: column;
 }
 
-@media(max-width){
+@media(max-width:760){
 .main{
-    float: left;
+    float: none;
     width: 100%;
 }
 }
@@ -474,6 +474,11 @@ i{
 
 .list{
     list-style: none;
+}
+
+li{
+    /* text-align: center; */
+    margin-left: 8rem;
 }
 
 .navbars{
