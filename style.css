@@ -27,7 +27,7 @@
     border-bottom-right-radius: .5rem;
 }
 
-input{
+.inputs{
     border-radius: 1rem;
     width: 130px;
     height: 25px;
@@ -110,7 +110,7 @@ img{
     min-height: 200px;
     background: #fff; 
     margin: 1rem;  
-    box-shadow: 0 3px 5px ;
+    box-shadow: 3px 3px 20px 1px#ccc;
 }
 
 @media(max-width:768px){
@@ -555,13 +555,52 @@ li{
     text-align: center;
 }
 
-.box-wrap{
-    width: 200px;
-    height: 150px;
-text-align: center;
-margin-top: 5rem;
+select{
+    padding: .5rem .8rem;
+    margin-top: 1rem;
 }
 
-select{
+.badges{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+    background: red;
+    color: #fff;
+    padding: .1rem .3rem;
+}
+
+.icon1{
+    font-size: 25px;
+}
+
+.icon2{
+    font-size: 40px;
+}
+
+.icon3{
+    font-size: 55px;
+}
+
+.select-form{
+    margin-top: 5rem;
+}
+
+.boxs{
+    text-align: left;
+}
+
+label{
+    margin-left: 1rem;
+}
+
+.modal{
     padding: 1rem;
+    margin: 1rem;
 }
